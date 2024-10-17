@@ -1,0 +1,22 @@
+{
+    "name": "config_masked_players_prediction",
+    "description": "Configuration file for masked players prediction",
+    "datafile": "dataset/statsbomb/df_raw_counts_players_matches.csv",
+    "sample_batch_size": 256,
+    "repeat": 20,
+    "dev_ratio": 0.05,
+    "seed": 42,
+    "embed_size": 128,
+    "num_layers": 1,
+    "num_heads": 2,
+    "output_dir": "outputs/masked_players_prediction",
+    "num_train_epochs": 2000,
+    "learning_rate": 0.0001,
+    "warmup_ratio": 0,
+    "evaluation_strategy": "steps",
+    "eval_steps": 8550,
+    "logging_strategy": "steps",
+    "logging_steps": 8550,
+    "save_strategy": "steps",
+    "save_steps": 42750
+}

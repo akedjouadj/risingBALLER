@@ -1,0 +1,26 @@
+{
+    "name": "config_statsbomb_dataset",
+    "description": "Configuration file for the statsbomb matches dataset",
+    "TEAM_MAX_LENGTH": 18,
+    "ID_COLUMNS": ["player_name", "team_name", "competition_name", "season_name", "match_id", "position_id", "position_name"],
+
+    "FORM_STATS_SIZE": 39,
+    "MAX_PLAYER_IDX": 5105,
+    "MAX_TEAM_IDX": 140,
+    "MAX_POSITION_IDX": 24,
+
+    "PLAYER_MASK_TOKEN_ID":5106,
+    "PLAYER_PAD_TOKEN_ID":5107,
+    "TEAM_PAD_TOKEN_ID":141,
+    "POSITION_PAD_TOKEN_ID": 25,
+
+    "PLAYERS_BANK_SIZE": 5107,
+    "TEAMS_BANK_SIZE": 141,
+    "POSITION_BANK_SIZE": 25,
+
+    "LABEL2PLAYER_NAME": "dataset/statsbomb/metadata/label2players_name_5106p.pickle",
+    "PLAYER_NAME2LABEL": "dataset/statsbomb/metadata/players_name2label_5106p.pickle",
+    "LABEL2TEAM_NAME": "dataset/statsbomb/metadata/label2team_name_140t.pickle",
+    "TEAM_NAME2LABEL": "dataset/statsbomb/metadata/team_name2label_140t.pickle"
+
+}
