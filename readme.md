@@ -20,7 +20,6 @@ RisingBALLER introduces a novel approach to modeling football players' performan
 
 ### Table of Contents
 1. [Getting Starting](#getting-starting)
-    - [Data](#data)
 2. [Masked Players Modeling](#masked-players-modeling)
 3. [Applications](#applications)
 4. [Next Match Statistics Prediction](#next-match-statistics-prediction)
