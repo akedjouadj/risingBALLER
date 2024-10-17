@@ -7,7 +7,7 @@
 
 1. This code is designed for small-scale experiments. To scale up to large-scale training on massive datasets, certain aspects, particularly data processing and loading, should be optimized.
 
-2. The code has been tested with Python 3.11.6, but it should work with Python versions >= 3.9 without issues. If you are using a different version of python, it's recommended to compile the `requirements.in` file yourself. First, install `pip-tools` using `pip install pip-tools`, then run `pip-compile requirements.in` to generate a `requirements.txt` file. Finally, install the dependencies from the compiled `requirements.txt` using `pip install -r requirements.txt`, instead of directly using my provided requirements.txt.
+2. The code has been tested with Python 3.11.6, but it should work with Python versions >= 3.9 without issues. If you are using a different version of python, it's recommended to compile the [requirements.in](requirements.in) file yourself. First, install `pip-tools` using `pip install pip-tools`, then run `pip-compile requirements.in` to generate a `requirements.txt` file. Finally, install the dependencies from the compiled `requirements.txt` using `pip install -r requirements.txt`, instead of directly using my provided requirements.txt.
 
 ---
 
