@@ -3,7 +3,7 @@ ckpts_corrected_loss/
 dataset/others/
 masked_players_prediction/others/
 next_match_stats_prediction/
-outputs/*
+outputs/masked_players_prediction/
 paper_presentation/
 venv/
 
