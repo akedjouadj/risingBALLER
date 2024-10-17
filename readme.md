@@ -59,6 +59,8 @@ You can find a notebook on how to load the trained model embeddings (players, po
 #### Next Match Statistics Prediction
 Using a RisingBALLER backbone, you can fine-tune a model on various player, team, and match-level tasks. I introduced **next match statistics prediction** in the paper, demonstrating performance that outperforms a strong baseline in **10/16** statistics of interest. 
 
+![Tab of scores](images/nmsp_scores.png)
+
 This task requires more data preparation, as you need to aggregate data from past matches to represent the temporal positional embeddings (see the architecture). The code and data used to reproduce the results presented in the paper will be added soon!
 
 #### Citation 
