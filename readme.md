@@ -31,11 +31,12 @@ RisingBALLER introduces a novel approach to modeling football players' performan
 To get started, clone this repository and `cd risingballer`.
 
 **Data**
-I've provided the curated match dataframe extracted using the StatsBomb API with `Sbopen()`, available in the Python library `mplsoccer`. StatsBomb provides match event data in a timeline format (see their open repository), and I built a code snippet to convert this data into a player-level dataframe, `dataset/statsbomb/df_raw_counts_players_matches.csv`. If you're interested in the code for this, please send me an [email](adjileyeb@yahoo.com)!.
+
+I've provided the curated match dataframe extracted using the StatsBomb API with `Sbopen()`, available in the Python library `mplsoccer`. StatsBomb provides match event data in a timeline format (see their open repository), and I built a code snippet to convert this data into a player-level dataframe, `dataset/statsbomb/df_raw_counts_players_matches.csv`. If you're interested in the code for this, please send me an [email](mailto:adjileyeb@yahoo.com)!.
 
 Keep in mind that all you need to train a RisingBALLER model is mainly lineup data, along with some raw statistics (not necessarily all the statistics provided by StatsBomb). So, if you have other sources of massive football match lineups, with or without raw stats, you can quickly build a data preparation snippet and train a model. Don't forget to update the dataset config file in that case, the default config is `config/statsbomb_dataset/config.json` but you can save you own in `config/other_dataset/`.
 
-I'm currently working on a pipeline for massive data collection to build a **larger foundational model**. If you're interested and would like to contribute, please send me an [email](adjileyeb@yahoo.com).
+I'm currently working on a pipeline for massive data collection to build a **larger foundational model**. If you're interested and would like to contribute, please send me an [email](mailto:adjileyeb@yahoo.com).
 
 #### Masked Players Prediction (MPP)
 The model is trained using masked players prediction, the same pretext task that has proven effective for text modeling in `BERT` and `RoBERTa`.
