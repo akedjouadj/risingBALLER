@@ -1,6 +1,6 @@
 ## RisingBALLER: A player is a token, a match is a sentence, A path towards a foundational model for football players data analytics
 
-[ArXiv](https://arxiv.org/abs/2410.00943) | [RisB-Profiler](https://risb-profiler.streamlit.app/)
+[ArXiv](https://arxiv.org/abs/2410.00943) | [RisB-Profiler](https://risb-profiler.streamlit.app/) | [Conference-Presentation](https://youtu.be/YD6nwMFiXt4?si=voKatoswz2Lz5Drn)
 
 
 **Important Notice**
